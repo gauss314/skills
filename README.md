@@ -48,6 +48,18 @@ Skills specific to the Argentine market: BCRA, BCBA, MAE, CAFCI, etc.
 
 
 
+## Data — Regional (Chile)
+
+Skills specific to the Chilean market: Banco Central de Chile (BCCh), CMF and free aggregators.
+
+| # | Skill | Type | Cost | API Key | Instruments |
+|---|-------|------|:-----:|:-------:|--------------|
+| 1 | [BCCh Data](./skills/bcch-data/) | API | ✓ Free | Required | macro-data, forex |
+| 2 | [CMF Data](./skills/cmf-data/) | API | ✓ Free | Required | macro-data, forex, regulated-rates |
+| 3 | [Mindicador](./skills/mindicador/) | API | ✓ Free | - | macro-data, forex, crypto |
+
+
+
 ## Brokers
 
 Skills that allow executing real trades (orders, positions, account) on broker accounts.
@@ -127,6 +139,14 @@ Individual skills can also be installed with the commands in the tables below:
 | BYMA | `npx skills add gauss314/skills --skill byma` |
 | CAFCI | `npx skills add gauss314/skills --skill cafci` |
 | INDEC | `npx skills add gauss314/skills --skill indec` |
+
+## Data — Regional (Chile)
+
+| Skill | Command |
+|-------|---------|
+| BCCh Data | `npx skills add gauss314/skills --skill bcch-data` |
+| CMF Data | `npx skills add gauss314/skills --skill cmf-data` |
+| Mindicador | `npx skills add gauss314/skills --skill mindicador` |
 
 ## Brokers
 
